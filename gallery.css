@@ -1,0 +1,29 @@
+figcaption {
+    font-size: 26px;
+    padding-top: 20px;
+    text-align: center;
+        
+}
+figcaption a{
+    color: red;
+    font-weight: 700;
+    text-decoration: none;
+}
+figure{
+    border: 2px solid black;
+    width: 280px;
+    height: 300px;
+    cursor: pointer;
+    float: left;
+}
+figure img{
+    width: 230px;
+    height: 230px;
+    transition:0.3s;
+    padding:10px 25px 0px 25px;
+}
+figure:hover img{
+    transform: scale(1.0)rotate(3deg);
+    
+    
+}
